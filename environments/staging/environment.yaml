@@ -39,11 +39,11 @@ app:
 
   observability:
    cloudwatch:   
-      arn: arn:aws:logs:region:account-id:destination:destination_name_Mayank_sep12test
+      arn: arn:aws:logs:region:account-id:destination:destination_name_Mayank_sep14test
       logGroup: myLogGroupMayank
       region: us-east-1
 
-  version: ""
+  version: "29d9495e-8d89-43f5-8f21-b39b2f89254a"
 # probes
 # dynamic scaling
 # scaling to 0
