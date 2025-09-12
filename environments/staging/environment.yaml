@@ -39,7 +39,7 @@ app:
 
   observability:
    cloudwatch:   
-      arn: arn:aws:logs:region:account-id:destination:destination_name_Mayank
+      arn: arn:aws:logs:region:account-id:destination:destination_name_Mayank_sep12test
       logGroup: myLogGroupMayank
       region: us-east-1
 
