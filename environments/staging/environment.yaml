@@ -43,7 +43,7 @@ app:
       logGroup: myLogGroupMayank
       region: us-east-1
 
-  version: "997071a3-3fac-45dc-905b-51310afb4aba"
+  version: ""
 # probes
 # dynamic scaling
 # scaling to 0
