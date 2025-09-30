@@ -37,11 +37,16 @@ app:
     - name: clientSecret
       value: "{aes}AIUxkkmTE73hJrAj3oN5OMYQnC9j3NWNJNTXXAchJ97qyrr7MHYMmn1NEtxgHXFqmYp8VNEAYhB5hJS8voLsRYyfA/7GpDdznGs/DtYEqzlw"
 
-  observability:
-   cloudwatch:   
-      arn: arn:aws:iam::282782922504:role/MCSP_T_G_SSRE_easej_serviceRole_clodwatchCrossAccount_mayank
-      logGroup: myLogGroupMayankSep22
-      region: us-east-1
+  #observability:
+   #cloudwatch:   
+      #arn: arn:aws:iam::282782922504:role/MCSP_T_G_SSRE_easej_serviceRole_clodwatchCrossAccount_mayank
+      #logGroup: myLogGroupMayankSep22
+      #region: us-east-1
+  services:
+  - amazonCloudWatch:
+      arn: arn:aws:iam::282782922504:role/MCSP_T_G_SSRE_easej_serviceRole_clodwatchCrossAccount_mayank_Test1234
+      logGroup: myLogGroupMayankSep25_Test_6_7
+  #- awsEndpointService: "com.amazonaws.vpce.us-east-1.vpce-svc-0b45e222d19c556ef"
 
   version: ""
 # probes
