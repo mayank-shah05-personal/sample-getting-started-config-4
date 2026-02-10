@@ -48,7 +48,7 @@ app:
       logGroup: myLogGroupMayank_oct6
   #- awsEndpointService: "com.amazonaws.vpce.us-east-1.vpce-svc-0b45e222d19c556ef"
 
-  version: "1002"
+  version: ""
 # probes
 # dynamic scaling
 # scaling to 0
